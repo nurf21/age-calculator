@@ -5,7 +5,7 @@ export default function setupUI() {
       <div class="input-group">
         <label for="birthdate">Enter your birth date:</label>
         <div>
-          <input type="date" id="birthdate" class="date-input">
+          <input type="text" id="birthdate" class="date-input" placeholder="DD/MM/YYYY" readonly>
           <i class="fas fa-calendar-alt calendar-icon"></i>
         </div>
         <div id="dateError" class="error-message"></div>
