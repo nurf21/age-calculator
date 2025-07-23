@@ -1,3 +1,10 @@
+:root {
+  --primary-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  --result-gradient: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  --button-gradient: linear-gradient(to right, #3498db, #2c3e50);
+  --text-color: #2c3e50;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +13,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background: var(--primary-gradient);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -25,7 +32,7 @@ body {
 }
 
 h1 {
-  color: #2c3e50;
+  color: var(--text-color);
   margin-bottom: 3rem;
   font-size: 2.5rem;
 }
@@ -40,7 +47,7 @@ label {
   text-align: left;
   margin-bottom: 8px;
   font-weight: 600;
-  color: #2c3e50;
+  color: var(--text-color);
   font-size: 1.1rem;
 }
 
@@ -71,7 +78,7 @@ label {
 }
 
 .btn {
-  background: linear-gradient(to right, #3498db, #2c3e50);
+  background: var(--button-gradient);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -97,7 +104,7 @@ label {
 .result-container {
   margin-top: 40px;
   padding: 30px;
-  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  background: var(--result-gradient);
   border-radius: 15px;
   display: none;
   animation: fadeIn 0.5s ease-out;
@@ -109,7 +116,7 @@ label {
 
 .result-title {
   font-size: 1.3rem;
-  color: #2c3e50;
+  color: var(--text-color);
   margin-bottom: 20px;
 }
 
@@ -131,7 +138,7 @@ label {
 .unit-value {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: var(--text-color);
 }
 
 .unit-label {
