@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.7.1"
   }
 }
