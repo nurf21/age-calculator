@@ -11,8 +11,6 @@ export default function setupDatePicker() {
       input.value = `${day}/${month}/${year}`
     },
     customDays: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-    customMonths: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-      'August', 'September', 'October', 'November', 'December'],
     startDay: 1,
     position: 'br',
     overlayPlaceholder: 'Enter a 4-digit year',
